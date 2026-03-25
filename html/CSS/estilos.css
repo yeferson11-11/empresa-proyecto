@@ -50,7 +50,7 @@ body {
 nav {
     width: 100%;
     height: 50px;
-    background-color: rgb(224, 116, 224);
+    background-color: rgb(166, 255, 0);
     position: fixed;
     max-width: 1280px;
 }
@@ -107,7 +107,7 @@ nav ul li {
     /*tamaño definido para todas las opciones (los elementos li)*/
     /*se agrega el mismo color a todos los elementos de la
 barra de navegación*/
-    background-color: rgb(221, 117, 221);
+    background-color: rgb(255, 153, 0);
 }
 
 /*Para que los elementos ocultos cuando pase el mouse, muestre
@@ -140,7 +140,7 @@ al elemento <a>*/
     padding: 15px 2px;
     /*Recuerde que es arriba(15px)-derecha(2px)-abajo(15)-izquierda(2)*/
     text-align: center;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #ffffff;
     /*borde inferior al elemento <a>*/
 }
 
@@ -202,7 +202,7 @@ main#portafolio {
 si se separa pensara que es de alguna del interior*/
     width: 100%;
     height: 550px;
-    background: rgb(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.315);
     /*transparencia 0.4*/
 }
 
@@ -311,5 +311,5 @@ margin-top: 10px;
 footer{
 width: 100%;
 height: 50px;
-background-color: #DB9F16;
+background-color: #b3ff00;
 }
