@@ -13,7 +13,7 @@ por el border o por el padding*/
 
 /*clases especiales*/
 .borde {
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.301);
 }
 
 .titulo {
@@ -51,7 +51,7 @@ body {
 nav {
     width: 100%;
     height: 50px;
-    background-color: rgb(224, 116, 224);
+    background-color: rgb(0, 0, 0);
     position: fixed;
     max-width: 1280px;
 }
@@ -108,7 +108,7 @@ nav ul li {
     /*tamaño definido para todas las opciones (los elementos li)*/
     /*se agrega el mismo color a todos los elementos de la
 barra de navegación*/
-    background-color: rgb(221, 117, 221);
+    background-color: rgb(255, 102, 0);
 }
 
 /*Para que los elementos ocultos cuando pase el mouse, muestre
@@ -188,7 +188,7 @@ header {
     width: 100%;
     height: 550px;
     /*depende del monitor*/
-    background-image: url('../img/fondo-header.jpg');
+    background-image: url(../img/fondo-header.jpg);
     background-size: 100% 100%;
 }
 
@@ -203,7 +203,7 @@ main#portafolio {
 si se separa pensara que es de alguna del interior*/
     width: 100%;
     height: 550px;
-    background: rgb(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.356);
     /*transparencia 0.4*/
 }
 
@@ -293,11 +293,11 @@ section#contactenos {
     width: 100%;
     height: 30%;
     padding: 2px;
-    background: rgb(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.384);
     text-align: center;
 }
 
-/dirección contacto/
+/* dirección contacto */
 .direccion{
 margin-top: 10px;
 }
@@ -312,5 +312,5 @@ margin-top: 10px;
 footer{
 width: 100%;
 height: 50px;
-background-color: #DB9F16;
+background-color: #ff7b00;
 }
